@@ -1,0 +1,40 @@
+$메인컬러: #ff0000;
+
+.red {
+  color: $메인컬러;
+}
+
+@mixin 함수() { // 메소드로 만들기
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.my-alert {
+  @include 함수(); // 메소드 불러오기
+  p {
+    margin-bottom: 0;
+  }
+}
+.my-alert2 {
+  @extend .my-alert;// 불러오는것
+  background-color: #ffe591;
+}
+
+// div.container h4 {
+//   color: blue;
+// }
+// div.container p {
+//   color: green;
+// }
+div.container {
+  h4 {
+    color: blue;
+  }
+  p {
+    color: green;
+  }
+}
