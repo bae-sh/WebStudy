@@ -2,8 +2,7 @@
   text-align: center;
 }
 body {
-  font-family:
-  'nanumsquare';
+  font-family: "nanumsquare";
 }
 .black-nav {
   background: black;
@@ -14,7 +13,7 @@ body {
   font-weight: 600;
   font-size: 20px;
 }
-.publish{
+.publish {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -22,12 +21,12 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 5px;
-  width:80%;
-  border: 1px solid grey
+  width: 80%;
+  border: 1px solid grey;
 }
 .publish button {
   display: block;
-  margin:auto;
+  margin: auto;
   margin-top: 10px;
 }
 .list {
@@ -40,10 +39,10 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
-.modal{
+.modal {
   margin-top: 10px;
   padding: 20px;
-  background:#eee;
+  background: #eee;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

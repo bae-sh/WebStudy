@@ -4,7 +4,8 @@ $메인컬러: #ff0000;
   color: $메인컬러;
 }
 
-@mixin 함수() { // 메소드로 만들기
+@mixin 함수() {
+  // 메소드로 만들기
   background-color: #eeeeee;
   padding: 20px;
   border-radius: 5px;
@@ -20,7 +21,7 @@ $메인컬러: #ff0000;
   }
 }
 .my-alert2 {
-  @extend .my-alert;// 불러오는것
+  @extend .my-alert; // 불러오는것
   background-color: #ffe591;
 }
 
@@ -37,4 +38,15 @@ div.container {
   p {
     color: green;
   }
+}
+
+.wow-enter {
+  // 시작할때
+  opacity: 0; // 투명도
+}
+
+.wow-enter-active {
+  // 동작할때
+  opacity: 1;
+  transition: all 500ms;
 }

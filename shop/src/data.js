@@ -11,14 +11,14 @@ let data =
     id : 1,
     title : "Red Knit",
     content : "Born in Seoul",
-      price: 110000
+    price: 110000
   },
 
   {
     id : 2,
     title : "Grey Yordan",
     content : "Born in the States",
-      price: 130000
+    price: 130000
   }
 ]
 // export { name, name2 } import 이름 일치해야함
